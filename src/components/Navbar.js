@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import logo from '../logo.svg/';
 import { Navbar } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
 import { Form } from 'react-bootstrap';
@@ -7,14 +6,8 @@ import { FormControl } from 'react-bootstrap';
 import { NavDropdown } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { render } from '@testing-library/react';
-
-
 
 export default class Header extends Component {
-  constructor() {
-    super()
-  }
   render() {
   return (
     <Navbar bg='light' expand='lg'>
