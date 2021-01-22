@@ -1,11 +1,17 @@
 import React from 'react';
-import TentangKita from './components/Content';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import GlobalStyle from './globalStyles';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './pages/HomePage/Home'
+import { Navbar } from './components';
 
 function App() {
   return (
     <Router>
-      <Route exact path='/' component={TentangKita}></Route>
+      <GlobalStyle/>
+      <Navbar/>
+      <Switch>
+        <Route path="/" exact component={Home}/>
+      </Switch>
     </Router>
   );
 }
