@@ -5,6 +5,8 @@ InfoSec,
 InfoRow,
 InfoColumn,
 TextWrapper,
+ImgWrapper,
+Img,
 TopLine,
 Heading,
 Subtitle 
@@ -21,7 +23,11 @@ const InfoSection = ({
     description, 
     headline, 
     lightText, 
-    topLine}) => {
+    topLine,
+    img,
+    alt,
+    start
+}) => {
     return (
         <>
         <InfoSec lightBg={lightBg}> 
@@ -38,6 +44,11 @@ const InfoSection = ({
                                 </Button>
                             </Link>
                         </TextWrapper>
+                    </InfoColumn>
+                    <InfoColumn>
+                        <ImgWrapper start={start}>
+                            <Img src={img} alt={alt}/>
+                        </ImgWrapper>
                     </InfoColumn>
                 </InfoRow>
             </Container>

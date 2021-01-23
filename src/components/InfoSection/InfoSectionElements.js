@@ -38,6 +38,21 @@ export const TextWrapper = styled.div`
   }
 `;
 
+export const ImgWrapper = styled.div`
+  max-width: 555px;
+  display: flex;
+  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+`;
+
+export const Img = styled.img`
+  padding-right: 0;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  max-height: 500px;
+`;
+
 export const TopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
   font-size: 18px;
