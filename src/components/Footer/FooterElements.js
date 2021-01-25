@@ -1,9 +1,8 @@
 import styled from 'styled-components'
-import { GiSharpSmile } from "react-icons/gi";
-import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
   background-color: #fff;
+  padding: 0 0 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,21 +47,6 @@ export const SocialMediaWrap = styled.div`
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
-`;
-
-export const SocialLogo = styled(Link)`
-  color: #101522;
-  justify-self: start;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-  margin-bottom: 16px;
-`;
-
-export const SocialIcon = styled(GiSharpSmile)`
-  margin-right: 10px;
 `;
 
 export const WebsiteRights = styled.small`

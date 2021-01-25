@@ -8,8 +8,6 @@ import {
     FooterContainer, 
     SocialMedia,
     SocialMediaWrap,
-    SocialLogo,
-    SocialIcon,
     WebsiteRights,
     SocialIcons,
     SocialIconLink
@@ -20,10 +18,6 @@ const Footer = () => {
         <FooterContainer>
             <SocialMedia>
                 <SocialMediaWrap>
-                    <SocialLogo to='/'>
-                        <SocialIcon />
-                        ASSASSIN
-                    </SocialLogo>
                     <WebsiteRights>ASSASSIN © 2021</WebsiteRights>
                     <SocialIcons>
                         <SocialIconLink href={'//www.instagram.com/assassin_smada'} target='_blank' aria-label='Instagram'>
