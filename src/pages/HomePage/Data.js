@@ -21,10 +21,10 @@ export const homeObjTwo = {
     lightTopLine: false, 
     lightTextDesc: false, 
     buttonLabel: 'Get Started', 
-    description: 'Membantu yang miskin, menusuk yang kaya', 
+    description: 'Assassin lahir di Jember pada tahun 2014', 
     headline: 'Kapan Assassin Dibentuk', 
     lightText: false, 
-    topLine: 'Class of class',
+    topLine: '',
     img: require('../../images/smada.png').default,
     alt: 'Image',
     start: 'true'

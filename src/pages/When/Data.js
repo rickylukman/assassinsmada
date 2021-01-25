@@ -1,19 +1,3 @@
-export const homeObjOne = {
-    primary: true,
-    lightBg: false,
-    imgStart: '', 
-    lightTopLine: true, 
-    lightTextDesc: true, 
-    buttonLabel: 'Get Started', 
-    description: 'Membantu yang miskin, menusuk yang kaya', 
-    headline: 'Cerita Kami', 
-    lightText: true, 
-    topLine: 'Class of class',
-    img: require('../../images/undraw_playing_fetch_cm19.svg').default,
-    alt: 'Image',
-    start: ''
-}
-
 export const homeObjTwo = {
     primary: false,
     lightBg: true,
@@ -21,10 +5,10 @@ export const homeObjTwo = {
     lightTopLine: false, 
     lightTextDesc: false, 
     buttonLabel: 'Get Started', 
-    description: 'Membantu yang miskin, menusuk yang kaya', 
+    description: 'Assassin lahir di Jember pada tahun 2014', 
     headline: 'Kapan Assassin Dibentuk', 
     lightText: false, 
-    topLine: 'Class of class',
+    topLine: '',
     img: require('../../images/smada.png').default,
     alt: 'Image',
     start: 'true'

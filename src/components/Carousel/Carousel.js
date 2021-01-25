@@ -1,18 +1,18 @@
 import React from 'react'
 import { 
-InfoSec,
-InfoRow,
-InfoColumn,
-TextWrapper,
-ImgWrapper,
-Img,
-TopLine,
-Heading,
-Subtitle 
-} from './InfoSectionElements'
+    InfoSec,
+    InfoRow,
+    InfoColumn,
+    TextWrapper,
+    ImgWrapper,
+    Img,
+    TopLine,
+    Heading,
+    Subtitle 
+    } from '../InfoSection/InfoSectionElements'
 import { Container } from '../../globalStyles'
 
-const InfoSection = ({ 
+const Carousel = (
     primary,
     lightBg,
     imgStart, 
@@ -26,22 +26,18 @@ const InfoSection = ({
     img,
     alt,
     start
-}) => {
+) => {
     return (
         <>
+        {/* KAROSEL DI DALAM SINI */}
         <InfoSec lightBg={lightBg}> 
             <Container>
                 <InfoRow imgStart={imgStart}>
                     <InfoColumn>
                         <TextWrapper>
-                            <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                            <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                            {/* <Link to='/sign-up'>
-                                <Button big fontBig primary={primary}>
-                                    {buttonLabel}
-                                </Button>
-                            </Link> */}
+                            <TopLine lightTopLine={lightTopLine}>ININIH</TopLine>
+                            <Heading lightText={lightText}>ININIH</Heading>
+                            <Subtitle lightTextDesc={lightTextDesc}>DESKIRI</Subtitle>
                         </TextWrapper>
                     </InfoColumn>
                     <InfoColumn>
@@ -56,4 +52,4 @@ const InfoSection = ({
     )
 }
 
-export default InfoSection
+export default Carousel

@@ -5,7 +5,7 @@ import Home from './pages/HomePage/Home'
 import When from './pages/When/When'
 import Who from './pages/Who/Who'
 import About from './pages/About/About'
-import { Navbar, Footer } from './components';
+import { Navbar, Footer } from './components'
 
 function App() {
   return (
