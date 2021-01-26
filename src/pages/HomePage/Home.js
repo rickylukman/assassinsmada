@@ -8,7 +8,7 @@ const Home = () => {
         <InfoSection {...homeObjOne} />
         <InfoSection {...homeObjTwo} />
         <InfoSection {...homeObjThree} />
-        {/* yang 3 dikecilin, yang carousel gedean */}
+        {/* yang 3 dikecilin, yang carousel gedean , atau image di Three dijadiin carousel*/}
         <Carousel/>
         <InfoSection {...homeObjFour} />
         <InfoSection {...homeObjFive} />
