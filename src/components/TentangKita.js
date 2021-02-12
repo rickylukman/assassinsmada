@@ -1,3 +1,0 @@
-class TentangKita extends Component {
-    
-}
