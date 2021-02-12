@@ -2,15 +2,15 @@ import React from 'react'
 import { homeObjThree, homeObjFour, homeObjFive } from './Data'
 import { InfoSection, Carousel } from '../../components'
 
-const Home = () => {
+const Who = () => {
     return (
         <>
-        <InfoSection {...homeObjThree} />
-        <Carousel/>
-        <InfoSection {...homeObjFour} />
-        <InfoSection {...homeObjFive} />
+            <InfoSection {...homeObjThree} />
+            {/* <Carousel /> */}
+            {/* <InfoSection {...homeObjFour} />
+            <InfoSection {...homeObjFive} /> */}
         </>
     )
 }
 
-export default Home
+export default Who
