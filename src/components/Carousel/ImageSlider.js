@@ -20,19 +20,26 @@ export const ImageSlider = ({ slides }) => {
     }
 
     return (
-        <section section className="slider" >
-            <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-            <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
-            {
-                SliderData.map((slider, index) => {
-                    return (
-                        <div className={index === current ? "slide active" : "slide"} key={index}>
-                            {index === current && (<img className="image" src={slider.image} alt="Image Slider" />)}
+        <div className="utama">
+            <center>
+                <section>
+                    <input type="file" />
+                </section><br></br>
+                <section section className="slider">
+                    <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
+                    <FaArrowCircleRight className="right-arrow" onClick={nextSlide} />
+                    {
+                        SliderData.map((slider, index) => {
+                            return (
+                                <div className={index === current ? "slide active" : "slide"} key={index}>
+                                    {index === current && (<img className="image" src={slider.image} alt="ImageSlider" />)}
 
-                        </div>
-                    )
-                })
-            }
-        </section >
+                                </div>
+                            )
+                        })
+                    }
+                </section >
+            </center>
+        </div>
     )
 }
