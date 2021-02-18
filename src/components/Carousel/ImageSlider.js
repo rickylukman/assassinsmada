@@ -22,6 +22,7 @@ export const ImageSlider = ({ slides }) => {
     return (
         <div className="utama">
             <center>
+                <p className="title">Gallery</p>
                 <section>
                     <input type="file" />
                 </section><br></br>

@@ -6,8 +6,8 @@ import { SliderData } from '../../components/Carousel/SliderData'
 
 const Who = () => {
     return (
-        <div className="p-5">
-            <div className="flex">
+        <div className="p-4">
+            <div>
                 <ImageSlider slides={SliderData} />
             </div>
         </div>
